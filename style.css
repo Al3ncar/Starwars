@@ -7,23 +7,7 @@
     font-family: 'Open Sans', sans-serif;
     /* border: black solid; */
 }
-.nav-conteiner{
 
-    width: 100%;
-    height: 10vh;
-    background-color: black;
-    color: white;
-   
-}
-
-ul{
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    
-}
 
 .starwars-conteiner{
 
@@ -146,17 +130,15 @@ ul{
 
 /* COMECE A JOGAR */
 
+
 .jogar-conteiner{
 
-    width: 100%;
-    height: 100%;
-    padding: 0 5% 0 10%;
+    width: 94%;
+    height: 147vh;
+    /* background-color: blue; */
     background-image: url("img-starwars/star-uo-robot.png");
     background-repeat: no-repeat;
-    background-size: 40% 100%;
-    /* display: flex;
-    justify-content:flex-end;
-    align-items: center; */
+    background-size: 45% 100%;
     
     
 }
@@ -265,10 +247,10 @@ ul{
 
 .sobre-conteiner{
 
-    width: 100%;
-    height: 65%;
-    padding-top:16.5%;
-    margin-left: 2.5%;
+    width: 88%;
+    height: 64vh;
+    padding-top: 27.5vh;
+    margin-left: 12.6%;
     /* background-color:red ; */
     display: flex;
     justify-content: flex-end;
@@ -292,7 +274,7 @@ ul{
 .star-wars-p{
 
     width: 100%;
-    font-size: 0.8em;
+    font-size: 0.9em;
  
 } 
 
@@ -300,13 +282,14 @@ ul{
 
     width: 27%;
     height: 27vh;
-    border: black solid;
+    /* border: black solid; */
     
 }
 
 .battlefont-img{
 
     width: 100%;
+    height: 28vh;
     
 }
 
@@ -314,7 +297,6 @@ ul{
 
     width: 100%;
     padding: 0% 0 4% 0;
-    padding-top: 0%;
     /* border: solid black; */
     font-size: 1.2em;
     font-weight: bolder;
@@ -329,13 +311,5 @@ ul{
     margin: 0 0% 5% 67%;
     display: flex;
     background-color: black;
-
-}
-
-.lord-sifh{
-
-    width: 55%;
-    height: 87vh;
-
 
 }
