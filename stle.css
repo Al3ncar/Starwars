@@ -141,7 +141,7 @@
     width: 100%;
     height: 54vh;
     display:flex;
-    flex-direction: row;
+    /* flex-direction: ro; */
 
 }
 
@@ -156,8 +156,11 @@
     width: 100%;
     height: 50%;
     display:flex;
+    flex-direction: row;
     
 }
+
+
 .storm{
 
     width: 100%;

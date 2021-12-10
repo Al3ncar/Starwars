@@ -13,7 +13,6 @@
 .starwars-conteiner{
 
     width: 100%;
-    height: 100%;
     background-image: url("img-starwars/star-fundo-imgs/star\ uó\ topo.png");
     background-repeat: no-repeat;
     background-size: 100% 100%; 
@@ -33,7 +32,7 @@
 .star-img{
 
     width: 24%;
-    height: 12vh; 
+    height: 12%; 
     /* border: white solid; */
     position: relative;
     left: 19%;
@@ -43,7 +42,7 @@
 .wars-img{
 
     width: 25%;
-    height: 12vh; 
+    height: 12%; 
     /* border: white solid; */
     position: relative;
     left: 41.5%;
@@ -53,7 +52,7 @@
 .kylo-conteiner{
 
     width: 100%;
-    height: 85vh;
+    height: 88vh;
     display: flex;
     align-items: center;
     /* background-color:red; */
@@ -63,13 +62,16 @@
 .kylo-img{
 
     width: 70%;
-    height: 100%;
     position: absolute;
-    top: 2vh;
+    top: 2%;
     left: 10.5%;
     z-index: 1;
+    
     /* background-color: brown; */
 }
+
+
+
 
 /* ---------------------------------------------LEGIAO CAIXA----------------------------------- */
 
@@ -138,7 +140,6 @@
     background-repeat: no-repeat;
     background-size: 45% 100%;
     
-    
 }
 
 .comece-conteiner{
@@ -146,39 +147,36 @@
     width: 23%;
     height: 65%;
     background-image: url("img-starwars/battlefront-2-imgs/strom-trupe-red.png");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     color: white;
     position: absolute;
-    top:78.5vh;
-    left:12%;
+    top:78.5%;
+    left:15%;
     z-index: 2;
-    /* border: solid black; */
-    /* opacity: 0.5; */
-
 }
 
 .jogar-box{
-    
-    height: 25vh;
+
+    width: 100%;
+    height: 100%;
     font-size: 3vw;
-    /* border: solid black; */
+    padding-top: 23%;
     display:flex;
-    padding-top: 5%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     
 }
 
-.comece-line{
+.comece-title{
 
-    height: 5vh;
+    width: 100%;
     font-weight: bolder;
-    margin: 2% 0;
-  
+    font-size: 3.3vw;
+    text-align: center;
+    margin: 0.5% 0;
 
-    
 }
 
 .baixe-conteiner{
@@ -186,9 +184,8 @@
     width: 100%;
     height: 20%;
     font-size: 1.1vw;
-    font-weight: none;
+    font-weight: normal;
     text-align: left;
-    /* border:solid black 2px; */
     display: flex;
     align-items: center;
     margin-top: 15%;
@@ -199,24 +196,31 @@
 .baixe-p{
 
     width: 100%;
-    height: 9vh ;
     text-align: left;
-    /* padding:5% 3%; */
-    /* border: solid white; */
 
 }
 
 .span-p{
 
-    width: 90%;
-    height: 3vh;
+    width: 0%;
+    height: 100%;
     
 }
+
+.test-p{
+
+    font-size: 0.5vw;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15% 2%;
+
+}
+
 
 .dowload-conteiner{
 
     width: 100%;
-    height: 5vh;
+    height: 21%;
     padding: 10% 0 8% 0;
     display: flex;
     justify-content: center;
@@ -227,13 +231,12 @@
 .download-btn{
 
     width: 50%;
-    height: 5.5vh;
+    height: 100%;
     border-radius: 2%;
     background: transparent;
     border: solid 0.2em white;
     font-size: 1vw;
     font-weight: bolder;
-    
     position: relative;
     color: white;
     z-index: 1;
@@ -269,24 +272,14 @@
 
 }
 
-.test-p{
-
-    font-size: 0.5vw;
-    display: flex;
-    justify-content: flex-end;
-    padding: 15% 2%;
-
-}
-
 /* -----------------------------------SOBRE------------------------------------------------- */
 
 .sobre-conteiner{
 
     width: 88%;
-    height: 64vh;
-    padding-top: 30.5vh;
+    height: 100%;
+    padding-top: 17.5%;
     margin-left: 12.6%;
-    /* background-color:red ; */
     display: flex;
     justify-content: flex-end;
 
@@ -295,32 +288,21 @@
 .battlfont-conteiner{
 
     width: 35%;
-    height: 28vh;
+    height: 100%;
     padding-right:1% ;
-    /* border: solid pink; */
     text-align: right;
     font-size: 1.2vw;
 
 }
 
-.sobre-span{
+.sobre-title{
 
-    width: 80%;
-    padding: 0% 0 4% 0%;
-    margin-left:23% ;
+    width: 43%;
+    padding: 0% 0 2% 0%;
+    margin-left: 57% ;
     font-size: 1.5vw;
     font-weight: 700;
-
-}
-
-.sobre-span::after{
-    
-    content:"";
-    width: 40%;
-    height: 0.2vh;
-    margin: 0 0% 5% 59%;
-    display: flex;
-    background-color: black;
+    border-bottom: black solid 0.2vw;
 
 }
 
@@ -328,6 +310,7 @@
 
     width: 100%;
     font-size: 1.2vw;
+    padding: 6% 0 0 0;
  
 } 
 
@@ -336,25 +319,25 @@
     width: 27%;
     height: 80%;
     
-    
 }
 
 .battlefont-img{
 
     width: 100%;
     
-    
 }
 
 
 .line-border{
 
-    width: 88%;
-    height: 0.5vh;
-    margin: 2%  0 0 12.7%;
+    width: 85%;
+    height:0.3vw;
+    margin: 2% 0 0 15.7%;
     background-color: gray;
+    
 }
 
+/* ----------------------ESTRUTURA----------------------------- */
 
 .estrutura-conteiner{
 
@@ -365,25 +348,51 @@
     /* background-color: brown; */
 }
 
+.sifh-box{
+
+    width:50%;
+    height: 80%;
+    margin-top:2% ;
+    position: relative;
+
+}
+
 .sifh-img{
 
-    width: 49%;
-    height: 85vh;
+    width: 100%;
     position:absolute;
     left: 12vw;
-    /* background-color: blue; */
-  
+    
+    
 }
+
+.rey-box{
+
+    width: 24%;
+    height: 80%;
+    margin-top: 5%;
+    position: relative;
+    
+}
+
+.rey-img{
+
+    width: 100%;
+    margin:5% 1% 0 0%;
+    position: absolute;
+    top:0;
+    left: 0;
+    
+}
+
 
 .jornada-conteiner{
 
-    width: 29%;
-    height: 70vh;
-    padding-top:2% ;
-    /* border: solid black; */
-    position:relative;
-    left: 43vw;
-    /* background-color: chartreuse; */
+    width: 40%;
+    height: 100%;
+    margin:6.5% 0;
+    
+    
 }
 
 .estrutura-title{
@@ -391,11 +400,15 @@
     width: 100%;
     height: 30%;
     /* border: black solid 2px; */
-    /* background-color: brown; */
-    font-size: 2.5vw;
+    font-size: 2vw;
     text-align: right;
     font-weight: 900;
 
+}
+
+.jogo-p{
+
+    font-weight: bolder;
 }
 
 .jogo-conteiner{
@@ -404,17 +417,6 @@
     height: 0%;
     padding-left: 30%;
     
-}
-
-.rey-img{
-
-    width: 23%;
-    height: 77vh;
-    position: absolute;
-    left:6.5vw;
-    margin:5vh 1% 0 19%;
-    /* background-color:green ; */
-
 }
 
 ul{
@@ -433,7 +435,7 @@ li{
 
     width: 100%;
     margin-top: 3%;
-    padding: 0.5% 3% 0.5% 0 ;
+    padding: 1% 0%;
     /* border: black solid 2px; */
     position: relative;
     z-index: 4;
@@ -462,4 +464,1219 @@ li:hover{
     color: white;
     padding:0% 6% 2% 6%;
 
+}
+
+/* BORDERS */
+
+
+.top-border-review{
+
+    width: 9%;
+    height: 0.6vh;
+    background-color: white;
+    position: absolute;
+    top: 8%;
+    left: 5.5%;
+
+}
+
+.left-border-review{
+
+    width: 9%;
+    height: 0.6vh;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    top:15%;
+    left:1.3%;
+    
+}
+
+
+.bottom-border-review{
+
+    width: 9%;
+    height: 0.5vh;
+    background-color: white;
+    position: absolute;
+    bottom: 7%;
+    left: 86%;
+
+}
+
+.right-border-review{
+
+    width: 9%;
+    height: 0.6vh;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom:13.8%;
+    left: 90.5% ;
+}
+
+
+/*-----*/
+
+
+.atributos-title{
+
+    font-weight: bolder;
+    font-size:2.5vw;
+    padding: 7% 0 4% 11%;
+}
+
+.review-box{
+
+    width: 50%;
+    height: 100%;
+    position: relative;
+
+}
+
+.review-img-box{
+
+    width: 100%;
+    height: 100%;
+}
+
+.review-img{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.jogabiliadade-conteiner{
+
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    background-color:#2ad300;
+    position:absolute;
+    top: 0;
+    opacity: 0%;
+    transform:translateY(5%);
+    transition: 0.5s;
+}
+
+.jogabiliadade-conteiner:hover{
+
+    opacity: 85%;
+    transform: translateY(0%);
+
+}
+
+.jogabilidade-title{
+
+    padding: 0 0 10% 0;
+    font-size: 1.9vw;
+    font-weight: bolder;
+}
+
+.leia-btn-reviw{
+
+    padding:0.5% 2%;
+    margin-top: 20%;
+    background: transparent;
+    border: solid white 0.2em;
+    color: white;
+
+}
+
+.leia-btn:hover{
+
+    background-color:white ;
+    color:black;
+    
+}
+
+.atributos-box{
+
+
+    width: 100%;
+    height: 54vh;
+    display:flex;
+    /* flex-direction: ro; */
+
+}
+
+.imgs-atributo{
+
+    width: 50%;
+    
+}
+
+.imgs-up{
+
+    width: 100%;
+    height: 50%;
+    display:flex;
+    flex-direction: row;
+    
+}
+
+
+.storm{
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+.storm-box{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.storm-img{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.storm-conteiner{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 4% 2% 0 9%;
+    top: 0;
+    left: 0;
+    background-color: #ae00ff;
+    opacity: 0;
+    transform:translateY(5%);
+    transition: 0.5s;
+}
+
+.storm-conteiner:hover{
+
+    opacity: 85%;
+    transform: translateY(0%);
+}
+
+
+.top-border-storm{
+
+    width: 9%;
+    height: 0.4vh;
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    left: 4%;
+
+}
+
+.left-border-storm{
+
+    width: 9%;
+    height: 0.5vh;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    top:11.5%;
+    left:0%;
+    
+}
+
+.bottom-border-storm{
+
+    width: 9%;
+    height: 0.5vh;
+    background-color: white;
+    position: absolute;
+    bottom: 7%;
+    bottom: 4%;
+    left: 86%;
+
+}
+
+.right-border-storm{
+
+    width: 9%;
+    height: 0.5vh;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom:11%;
+    left: 90.5% ;
+}
+
+.leia-btn{
+
+    margin-top: 3%;
+    padding:1% 2%;
+    font-size: 0.8vw;
+    background: transparent;
+    color: white;
+    border: solid white 0.2vw;
+    
+}
+
+.novos-title{
+
+    width: 30%;
+    font-size: 1.3vw;
+    font-weight: 900;
+}
+
+.novo-p{
+    padding: 3% 0 2% 0;
+    font-size: 0.9vw;
+}
+
+    /* -----------------------------------------STARGAME-----------------------------------------------*/
+
+.stargame{
+    
+    width:100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.stargame-box{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.stargame-img{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.stargame-conteiner{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 4% 2% 0 9%;
+    top: 0;
+    left: 0;
+    background-color: #ff0000;
+    opacity: 0;
+    transform:translateY(5%);
+    transition: 0.5s;
+
+}
+
+.stargame-conteiner:hover{
+
+    opacity: 75%;
+    transform: translateY(0%);
+
+}
+
+.top-border-star{
+
+    width: 9%;
+    height: 0.4vh;
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    left: 4%;
+
+}
+
+.left-border-star{
+
+    width: 9%;
+    height: 0.5vh;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    top:11.5%;
+    left:0%;
+    
+}
+
+.bottom-border-star{
+
+    width: 9%;
+    height: 0.5vh;
+    background-color: white;
+    position: absolute;
+    bottom: 7%;
+    bottom: 4%;
+    left: 86%;
+
+}
+
+.right-border-star{
+
+    width: 9%;
+    height: 0.5vh;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom:11%;
+    left: 90.5% ;
+}
+
+.leia-btn-storm{
+
+    margin-top: 5%;
+    padding:1% 2%;
+    background: transparent;
+    color: white;
+    border: solid white 0.2vw;
+    
+}
+
+.star-title{
+
+    font-size: 1.5vw;
+    font-weight: 900;
+    padding: 3% 0 3% 0 ;
+}
+
+.star-p{
+
+    font-size: 0.9vw;
+    padding: 0% 0% 3% 0;
+}
+    /* -------------------------------------------------------------------------------------------------------- */
+
+.imgs-dawn{
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+}
+
+/* ---------------------------------------------NAVE------------------------------------------------------------ */
+
+.nave{
+
+    width:100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.nave-box{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.nave-img{
+
+    width: 100%;
+    height: 100%;
+      
+}
+
+.nave-conteiner{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 4% 2% 0 9%;
+    top: 0;
+    left: 0;
+    background-color: #bdba00;
+    opacity: 0;
+    transform: translateY(5%);
+    transition: 0.5s;
+
+}
+
+
+.nave-conteiner:hover{
+
+    opacity: 85%;
+    transform: translateY(0%);
+
+
+}
+
+.top-border-nave{
+
+    width: 9%;
+    height: 0.4vh;
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    left: 4%;
+
+}
+
+
+.left-border-nave{
+
+    width: 9%;
+    height: 0.5vh;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    top:11.5%;
+    left:0%;
+    
+}
+
+
+.bottom-border-nave{
+
+    width: 9%;
+    height: 0.5vh;
+    background-color: white;
+    position: absolute;
+    bottom: 7%;
+    bottom: 4%;
+    left: 86%;
+
+}
+
+.right-border-nave{
+
+    width: 9%;
+    height: 0.5vh;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom:11%;
+    left: 90.5% ;
+}
+
+.leia-btn{
+
+    margin-top: 5%;
+    padding:1% 2%;
+    background: transparent;
+    color: white;
+    border: solid white 0.2vw;
+    
+}
+
+.nave-title{
+
+    font-size: 1.5vw;
+    font-weight: 900;
+    padding: 3% 0 3% 0 ;
+}
+
+.nave-p{
+
+    font-size: 0.9vw;
+    padding: 0% 0% 3% 0;
+}
+
+/* ----------------------------------------------STORMTRUP------------------------------------------------------------ */
+
+.stormtrup{
+
+    width:100%;
+    height: 100%;
+    position: relative;
+
+}
+
+
+.stormtrup-box{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.stormtrup-img{
+
+    width: 100%;
+    height: 100%;
+      
+}
+
+.stormtrup-conteiner{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 4% 2% 0 9%;
+    top: 0;
+    left: 0;
+    background-color: #0013bd;
+    opacity: 0;
+    transform: translateY(5%);
+    transition: 0.5s;
+
+}
+
+.stormtrup-conteiner:hover{
+
+    opacity: 75%;
+    transform: translateY(0%);
+
+}
+
+.top-border-stormtrup{
+
+    width: 9%;
+    height: 0.4vh;
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    left: 4%;
+
+}
+
+
+.left-border-stormtrup{
+
+    width: 9%;
+    height: 0.5vh;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    top:11.5%;
+    left:0%;
+    
+}
+
+.bottom-border-stormtrup{
+
+    width: 9%;
+    height: 0.5vh;
+    background-color: white;
+    position: absolute;
+    bottom: 7%;
+    bottom: 4%;
+    left: 86%;
+
+}
+
+.right-border-stormtrup{
+
+    width: 9%;
+    height: 0.5vh;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom:11%;
+    left: 90.5% ;
+}
+
+.leia-btn{
+
+    margin-top: 5%;
+    padding:1% 2%;
+    background: transparent;
+    color: white;
+    border: solid white 0.2vw;
+    
+}
+
+.stormtrup-title{
+
+    font-size: 1.5vw;
+    font-weight: 900;
+    padding: 3% 0 3% 0;
+
+}
+
+.stormtrup-p{
+
+    font-size: 0.9vw;
+    padding: 0% 0% 3% 0;
+    
+}
+
+/* ----------------------------------------------------HIERARQUIA---------------------------------------------------- */
+
+.hierarquia{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.hierarquia-box{
+
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.hierarquia-img{
+
+    width: 100%;
+    height: 100%;
+    
+}
+
+.hierarquia-conteiner{
+
+    width: 100%;
+    height: 50%;
+    text-align: end;
+    font-size: 1.1vw;
+    display: flex;
+    justify-content: end;
+    padding-top: 2% 0 0 0;
+
+}
+
+.hierarquia-p{
+
+    width: 65%;
+
+}
+
+/* ------------------------------------COMO JOGAR------------------------------------------------ */
+
+.como-jogar{
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+.como-conteiner{
+
+    width: 100%;
+    height: 100%;
+    padding: 10% 0% 10% 8%; 
+    color: white; 
+    background-color: #202020;  
+    text-align:center;
+
+}   
+
+.como-title{
+
+    font-weight: 900;
+    font-size: 2.5vw;
+
+}
+
+.como-box{
+
+    width: 28%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 7%;
+
+}
+
+.como-img{
+
+    width: 100%;
+    height: 98%;
+    
+    
+}
+
+.opcoes-conteiner{
+    
+    width:60%;
+    padding: 1% 0% 0% 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left:35%;
+
+
+}
+
+.opcoes-number{
+
+    width: 100%;
+    height: 100%;
+    padding: 10% 0;
+    font-size: 2.5vw;
+    font-weight: 900;
+    text-align:center;
+
+}
+
+.opcoes-btn{
+
+    width: 100%;
+    height: 100%;
+    padding: 5% 0;
+    font-size: 1.5vw;
+    background-color: black;
+    color: white;
+    border:none;
+
+}
+
+.opcoes-p{
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding:15% 0% 12% 0;
+    font-size:1.1vw;
+    font-weight: 100;
+    
+
+}
+
+
+.opcoes-rod{
+/* ROD = BARRA */
+
+    width: 30%;
+    height: 0.5vh;
+    margin: 0 0 10% 35%;
+    background-color: black;
+    
+
+}
+
+.download{
+
+    width: 26%;
+    height: 100%;
+   
+
+}
+
+.escolher{
+
+    width: 26%;
+    height: 100%;
+
+}
+
+.explorar{
+
+    width: 26%;
+    height: 100%;
+}
+
+/* -----------------------------------------FOOTER---------------------------------------- */
+
+.aplicativo{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.aplicativo-conteiner{
+
+    width: 65%;
+    height: 100%;
+    background-color:#F95956;
+    color: white;
+    font-size: 1.1vw;
+    margin-top: 8%;
+    position: relative;
+    
+}
+
+.aplicativo-content{
+
+    width: 55%;
+    margin:7% 15% 2% 23%;
+
+}
+
+.aplicativo-title{
+
+    font-size: 2.5vw;
+    font-weight: bolder;
+    padding: 6% 0;
+    
+}
+
+.aplicativo-p{
+
+    width: 85%;
+    margin:0 0 5% 0;
+
+}
+
+.aplicativo-box{
+
+    width: 90%;
+    height: 100%;
+    border-bottom:solid #D74430;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.aplicativo-img{
+
+    width:50%;
+    height: 100%;
+    padding: 4% 3% 7% 0;
+
+}
+
+.store-img{
+
+    width:47%;
+    height: 100%;
+    padding: 4% 0% 7% 0;
+
+}
+
+.aplicativo-logo{
+
+    width: 40%;
+    padding: 8% 0;
+
+}
+
+.darth{
+
+    width: 40%;
+    position: absolute;
+    left: 55%;
+    
+}
+
+.darth-img{
+
+    width: 100%;
+    height:100%;
+    
+}
+
+@media (max-width:500px){
+
+    .starwars-conteiner{
+    
+        width: 100%;
+        height: 47vh;
+
+    }
+
+    .starlogo-conteiner{
+
+        width: 100%;
+        position: absolute;
+        top: 19.2%;
+    }
+
+    .legiao-conteiner{
+        
+
+        font-size: 1.5vw;
+        position: absolute;
+        top: 27%;
+        left: 80%;
+
+    }
+
+    .legiao-btn{
+
+        font-size: 1.5vw;
+    }
+
+    .legiao-line{
+        font-size: 1.5vw;
+    }
+
+    .left-btn, .right-btn{
+
+        width: 20%;
+        height:10%;
+        font-size: 0.9vw;
+    }
+
+    .jogar-conteiner{
+
+        width: 100%;
+        height: 100%;
+        background-size: 70% 100vh;
+    }
+
+    .comece-conteiner{
+
+        width: 55%;
+        height: 100%;
+        position: relative;
+        top: 6vh;
+        left: 35%;
+    }
+
+    .comece-title{
+
+        width: 100%;
+        font-size:7vw ;
+    }
+
+    .baixe-conteiner{
+
+        width: 100%;
+        height: 100%;
+        padding-left: 10%;
+        font-size: 3vw;
+    }
+
+    .download-btn{
+
+
+        width: 50%;
+        height: 100%;
+        font-size: 3vw;
+    }
+
+    .test-p{
+
+        width: 50%;
+        height: 5vh;
+        font-size: 2.5vw;
+        padding: 0;
+        margin-left:25% ;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+
+    .sobre-conteiner{
+
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+        
+    }
+
+    .battlfont-conteiner{
+
+        width: 85%;
+        margin-left: 1.5%;
+        
+    }
+
+    .battlefont-box{
+
+        width: 61.5%;
+        height: 85%;
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        top:0%;
+        left:25%;
+        background-color: crimson;
+        
+    }
+
+    .battlefont-img{
+
+        width: 100%;
+        height: 100%;
+    
+    }
+
+    
+
+    .sobre-title{
+
+        width: 37%;
+        margin:5% 0 0 64%;
+        font-size: 3.5vw;
+        font-weight: bolder
+        
+    }
+
+    .star-wars-p{
+
+        font-size: 3vw;
+        margin-left: %;
+
+    }
+
+    .line-border{
+
+        width: 85%;
+        margin-left: 8%;
+        height:0.5vw;
+
+    }
+
+    .sifh-img{
+        position: absolute;
+        left: 10%;
+    }
+
+    .jornada-conteiner{
+
+        width: 30%;
+        margin: 10% 0;
+        position: relative;
+        right: 10%;
+
+    }
+
+    .rey-box{
+
+        position: relative;
+        right: 8vw;
+        
+    }
+
+    .rey-img{
+       
+        position: absolute;
+        right: 5%;
+
+    }
+
+    .atributos-box{
+
+        width: 100%;
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+    .imgs-atributo{
+
+        width: 100%;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .imgs-up{
+
+        width: 100%;
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .imgs-dawn{
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    } 
+
+    .review-box{
+        width: 100%;
+    }
+
+    .como-box{
+
+        width:90%;
+        position: absolute;
+        left: 0;
+    }
+
+    .como-img{
+
+        width: 100%;
+        height: 100vh;
+        transform: translateX(-38vw);
+        
+    }
+
+    .opcoes-conteiner{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        padding-left: 30%;
+    }
+
+    .opcoes-number{
+
+        width: 100%;
+        height: 100%;
+        font-size: 6vw;
+        font-weight: 900;
+        text-align:center;
+    
+    }
+
+    .opcoes-btn{
+
+        width: 20vw;
+        height: 100%;
+        font-size: 3vw;
+
+    }
+
+    .opcoes-p{
+
+        width: 100%;
+        height: 100%;
+        font-size: 3vw;
+        
+    }
+
+    .aplicativo{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aplicativo-p{
+
+        margin-bottom: 5% ;
+
+    }
+
+    .aplicativo-box{
+
+        background-color: ;
+    }
+
+    .aplicativo-conteiner{
+
+        width:100%;
+        height: 100vw;
+        font-size: 3vw;
+        padding:0% 2%;
+    }
+
+    .aplicativo-content{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aplicativo-title{
+        width: 100%;
+        font-size:6.5vw;
+    }
+
+    .darth{
+
+        width: 100%;
+        height:90vh;
+        width: 70%;
+        position: relative;
+        bottom: 1%;
+        left: 5%;
+        /* background-color: darkcyan; */
+        
+    }
+
+    .darth-img{
+
+        width: 100%;
+        position:absolute;
+        bottom: 3%;
+        width: 100%;
+        
+    }
 }
