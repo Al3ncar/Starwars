@@ -5,9 +5,78 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     /* border: black solid; */
 }
+
+/* menu{
+
+.nav{
+
+    width: 100%;
+    height: 100%;
+    padding: 1% 0%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.nav-conteiner{
+
+    width: 50%;
+    margin-left: %;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  
+
+}
+
+.ul-star{
+
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+    
+}
+
+.ul-star li{
+
+
+    width: 100%;
+    height: 100%;
+    font-size: 1.1vw;
+    padding: 3%;
+    color: white;
+    
+    
+}
+
+.ul-star li:hover{
+
+    transform:);
+    background-color:rgba(207, 58, 58, 0.829);
+    
+
+} 
+
+.busca-box{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+}
+/*
 
 /* ------------------------------------STARWARS------------------------------------------- */
 .starwars-conteiner{
@@ -55,7 +124,9 @@
     height: 88vh;
     display: flex;
     align-items: center;
-    /* background-color:red; */
+    animation: 3s forwards slide ;
+    animation-delay:1.5s;
+    transform: translateX(-50px);
 
 }
 
@@ -67,11 +138,21 @@
     left: 10.5%;
     z-index: 1;
     
-    /* background-color: brown; */
+    /* background-color: br; */
 }
 
+@keyframes slide {
 
+    from {
+        opacity: 0;
+    }
 
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
 
 /* ---------------------------------------------LEGIAO CAIXA----------------------------------- */
 
@@ -84,7 +165,7 @@
     position: absolute;
     top: 65%;
     left: 80%;
-
+    overflow: hidden;
 }
 
 .box-legiao{
@@ -211,7 +292,7 @@
 
     font-size: 0.5vw;
     display: flex;
-    justify-content: flex-end;
+    justify-content: ;
     padding: 15% 2%;
 
 }
@@ -419,7 +500,7 @@
     
 }
 
-ul{
+.ul-jogo{
     
     font-size:1.5vw;
     text-align: right;
@@ -431,19 +512,20 @@ ul{
 
 }
 
-li{
+.ul-jogo li{
 
     width: 100%;
     margin-top: 3%;
-    padding: 1% 0%;
+    padding: 1% 1.5%;
     /* border: black solid 2px; */
     position: relative;
     z-index: 4;
 }
 
-li:hover{
+.ul-jogo li:hover{
     
     background-color: tomato;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
     color: white;
     
 }
@@ -557,7 +639,7 @@ li:hover{
     position:absolute;
     top: 0;
     opacity: 0%;
-    transform:translateY(5%);
+    transform:translateY(6%);
     transition: 0.5s;
 }
 
@@ -644,12 +726,12 @@ li:hover{
     width: 100%;
     height: 100%;
     position: absolute;
-    padding: 4% 2% 0 9%;
+    padding: 8% 2% 0 9%;
     top: 0;
     left: 0;
     background-color: #ae00ff;
     opacity: 0;
-    transform:translateY(5%);
+    transform:translateY(7%);
     transition: 0.5s;
 }
 
@@ -667,13 +749,13 @@ li:hover{
     background-color: white;
     position: absolute;
     top: 5%;
-    left: 4%;
+    left: 5%;
 
 }
 
 .left-border-storm{
 
-    width: 9%;
+    width: 10%;
     height: 0.5vh;
     background-color: white;
     transform: rotate(90deg);
@@ -721,7 +803,8 @@ li:hover{
 
     width: 30%;
     font-size: 1.3vw;
-    font-weight: 900;
+    font-weight: bolder;
+    
 }
 
 .novo-p{
@@ -763,7 +846,7 @@ li:hover{
     left: 0;
     background-color: #ff0000;
     opacity: 0;
-    transform:translateY(5%);
+    transform:translateY(8%);
     transition: 0.5s;
 
 }
@@ -840,6 +923,7 @@ li:hover{
 
 .star-p{
 
+    width: 80%;
     font-size: 0.9vw;
     padding: 0% 0% 3% 0;
 }
@@ -887,7 +971,7 @@ li:hover{
     left: 0;
     background-color: #bdba00;
     opacity: 0;
-    transform: translateY(5%);
+    transform: translateY(8%);
     transition: 0.5s;
 
 }
@@ -1007,7 +1091,7 @@ li:hover{
     left: 0;
     background-color: #0013bd;
     opacity: 0;
-    transform: translateY(5%);
+    transform: translateY(8%);
     transition: 0.5s;
 
 }
@@ -1406,7 +1490,7 @@ li:hover{
         height: 100%;
         position: relative;
         top: 6vh;
-        left: 35%;
+        left: 30%;
     }
 
     .comece-title{
@@ -1495,7 +1579,6 @@ li:hover{
     .star-wars-p{
 
         font-size: 3vw;
-        margin-left: %;
 
     }
 
@@ -1591,7 +1674,8 @@ li:hover{
     }
 
     .opcoes-conteiner{
-        width: 100%;
+
+        width: 40%;
         display:flex;
         flex-direction: column;
         padding-left: 30%;
@@ -1617,7 +1701,7 @@ li:hover{
 
     .opcoes-p{
 
-        width: 100%;
+        width: 50vw;
         height: 100%;
         font-size: 3vw;
         
@@ -1635,11 +1719,7 @@ li:hover{
 
     }
 
-    .aplicativo-box{
-
-        background-color: ;
-    }
-
+    
     .aplicativo-conteiner{
 
         width:100%;
