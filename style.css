@@ -292,7 +292,7 @@
 
     font-size: 0.5vw;
     display: flex;
-    justify-content: ;
+    
     padding: 15% 2%;
 
 }
@@ -1512,7 +1512,7 @@
 
         width: 50%;
         height: 100%;
-        font-size: 3vw;
+        font-size: 3.1vw;
     }
 
     .test-p{
@@ -1565,8 +1565,6 @@
     
     }
 
-    
-
     .sobre-title{
 
         width: 37%;
@@ -1587,7 +1585,6 @@
         width: 85%;
         margin-left: 8%;
         height:0.5vw;
-
     }
 
     .sifh-img{
