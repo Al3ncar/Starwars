@@ -4,6 +4,6 @@
 
 <img width="400vw" src="https://thumbs.dreamstime.com/b/editorial-do-logotipo-das-estrelas-guerras-ilustrativo-em-fundo-branco-star-wars-eps-download-vetorial-jpeg-208332919.jpg" alt="StarWars logo">
 
-<a href="https://al3ncar.github.io/Projeto-Star-Wars/">Veja agora!!!</a></p>
+<a href="https://al3ncar.github.io/Starwars/">Veja agora!!!</a></p>
 
 ##
