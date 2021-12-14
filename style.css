@@ -6,10 +6,13 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    /* border: black solid; */
+    
 }
 
+
+
 /* ------------------------------------STARWARS------------------------------------------- */
+
 .starwars-conteiner{
 
     width: 100%;
@@ -25,7 +28,6 @@
     width: 100%;
     position: absolute;
     top: 46%;
-    /* background-color: blueviolet; */
 
 }
 
@@ -33,17 +35,15 @@
 
     width: 24%;
     height: 12%; 
-    /* border: white solid; */
     position: relative;
     left: 19%;
-    /* background-color: lightgreen; */
+   
 }
 
 .wars-img{
 
     width: 25%;
     height: 12%; 
-    /* border: white solid; */
     position: relative;
     left: 41.5%;
 
@@ -55,8 +55,10 @@
     height: 88vh;
     display: flex;
     align-items: center;
-    animation: 3s forwards slide;
+    animation: 3s forwards slide ;
+    animation-delay: 0.2s;
     transform: translateX(-50px);
+    opacity: 0;
 
 }
 
@@ -67,7 +69,7 @@
     top: 2%;
     left: 10.5%;
     z-index: 1;
-    
+
 }
 
 @keyframes slide {
@@ -107,7 +109,6 @@
 .legiao{
 
     font-weight: 900;  
-    
 
 }
 
@@ -145,7 +146,6 @@
 
     width: 94%;
     height: 100%;
-    /* background-color: blue; */
     background-image: url("img-starwars/star-fundo-imgs/star-uo-robot.png");
     background-repeat: no-repeat;
     background-size: 45% 100%;
