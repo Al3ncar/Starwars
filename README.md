@@ -2,4 +2,8 @@
 
 <p>Aqui está o projeto Starwar!! que foi o ultimo desafio do modulo-1</p>
 
-<img width="300vw" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png" alt="StarWars logo">
+<img width="400vw" src="https://thumbs.dreamstime.com/b/editorial-do-logotipo-das-estrelas-guerras-ilustrativo-em-fundo-branco-star-wars-eps-download-vetorial-jpeg-208332919.jpg" alt="StarWars logo">
+
+<a href="https://al3ncar.github.io/Projeto-Star-Wars/">Veja agora!!!</a></p>
+
+##
