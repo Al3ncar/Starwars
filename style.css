@@ -168,6 +168,7 @@ header{
 
     width: 94%;
     height: 100%;
+    
     background-image: url("img-starwars/star-fundo-imgs/star-uo-robot.png");
     background-repeat: no-repeat;
     background-size: 45% 100%;
@@ -378,11 +379,12 @@ header{
     
 }
 
-.battlfont-title{
+.battlefont-title{
 
     width: 45%;
-    padding: 0% 0 4% 0%;
-    margin-left: 54% ;
+    padding-bottom: 1%;
+    margin: 0% 0 1.5% 54%;
+    
 
     font-size: 1.5vw;
     font-weight: 700;
@@ -428,10 +430,10 @@ header{
 
 .structure{
 
-    width:100%;
-    height:100%;
+    width:99%;
+    height: 100%;
 
-    margin: 1% 0 0 2.2%;
+    margin: 1% 0 0 2%;
     /* border: solid black; */
     display: flex;
     /* background-color: brown; */
@@ -442,7 +444,7 @@ header{
     width:50%;
     height: 80%;
 
-    margin-top:2% ;
+    margin-top:2.5% ;
     position: relative;
 
 }
@@ -466,7 +468,7 @@ header{
 
     width: 40%;
     height: 100%;
-    margin:6.5% 0;
+    margin: 6% 0;
     
 }
 
@@ -501,7 +503,7 @@ header{
 
     width: 24%;
     height: 80%;
-    margin-top: 5%;
+    margin-top: 6.5%;
     position: relative;
     
 }
@@ -531,6 +533,7 @@ header{
     justify-content: right;
     flex-direction: column;
     list-style: none;
+
     /* border: red solid; */
    
 
@@ -576,11 +579,9 @@ header{
 
 .attributes-box{
 
-
     width: 100%;
-    height: 54vh;
+    
     display:flex;
-    /* flex-direction: ro; */
 
 }
 
@@ -682,6 +683,12 @@ header{
     padding: 0 0 10% 0;
     font-size: 1.9vw;
     font-weight: bolder;
+}
+
+.review-text{
+
+    font-size: 1.3vw;
+
 }
 
 .read{
@@ -813,7 +820,7 @@ header{
     height: 0.5vh;
     background-color: white;
     position: absolute;
-    bottom: 7%;
+    /* bottom: 7%; */
     bottom: 4%;
     left: 86%;
 
@@ -1205,12 +1212,11 @@ header{
 .ranking-container{
 
     width: 100%;
-    height: 50%;
+    
     text-align: end;
     font-size: 1.1vw;
     display: flex;
     justify-content: end;
-    padding-top: 2% 0 0 0;
 
 }
 
@@ -1244,7 +1250,7 @@ header{
 .how-title{
 
     font-weight: 900;
-    font-size: 2.5vw;
+    font-size: 2.7vw;
 
 }
 
@@ -1309,6 +1315,12 @@ header{
 
 }
 
+.options-btn:hover{
+    
+    background-color: tomato;
+
+}
+
 .options-text{
 
     width: 100%;
@@ -1354,6 +1366,8 @@ header{
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: row;
+    
 }
 
 .app-container{
@@ -1453,19 +1467,22 @@ header{
 .darth-box{
 
     width: 40%;
-    position: absolute;
-    left: 55%;
     
 }
 
 .darth{
 
-    width: 100%;
-    height:100%;
+    width: 40%;
+    
+
+    position: absolute;
+    right: 8%;
     
 }
 
 @media (max-width:500px){
+
+    
 
     .starwars{
     
@@ -1476,19 +1493,22 @@ header{
 
     .starwars-container{
 
-        width: 100%;
-        position: absolute;
-        top: 19.2%;
+        width: 73%;
+        
+        top: 55%;
+        left:17.9%;
+        
+        
     }
 
     .legion{
-        
 
         font-size: 1.5vw;
-        position: absolute;
-        top: 27%;
-        left: 80%;
+        
+        top: 88%;
+        left: 78%;
 
+        
     }
 
     .legion-box{
@@ -1497,30 +1517,38 @@ header{
     }
 
     .legiao-line{
+        
         font-size: 1.5vw;
     }
 
     .left, .right{
 
         width: 20%;
-        height:10%;
-        font-size: 0.9vw;
+        height: 30%;
+
+        font-size: 2.2vw;
     }
 
     .play{
 
-        width: 100%;
+        width: 100vw;
         height: 100%;
-        background-size: 70% 100vh;
+        
+        background-size: 70% 90vh;
+        
     }
 
     .start-container{
 
-        width: 55%;
-        height: 100%;
+        width: 55vw;    
+        
         position: relative;
-        top: 6vh;
-        left: 30%;
+        top: 10vh;
+        left:33%;
+        bottom: 0%;
+
+        background-size:100% 80vh ;
+       
     }
 
     .start-title{
@@ -1533,37 +1561,42 @@ header{
 
         width: 100%;
         height: 100%;
+
         padding-left: 10%;
         font-size: 3vw;
     }
 
     .download-link{
 
-
         width: 50%;
         height: 100%;
+
+        padding: 4%;
         font-size: 3.1vw;
     }
 
     .test{
 
-        width: 50%;
+        width: 100%;
         height: 5vh;
+        margin:5vh 0 0 0 ;
+
         font-size: 2.5vw;
-        padding: 0;
-        margin-left:25% ;
+        
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
 
     }
 
     .battlfont{
 
-        width: 90%;
+        width: 88.4%;
         height: 100%;
+        margin: 5% 0 0 11%;
+
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         flex-direction: column-reverse;
         
     }
@@ -1577,7 +1610,7 @@ header{
 
     .battlefont-box{
 
-        width: 61.5%;
+        width: 62.8%;
         height: 85%;
         position: relative;
         display: flex;
@@ -1612,36 +1645,66 @@ header{
 
     .line-border{
 
-        width: 85%;
-        margin-left: 8%;
-        height:0.5vw;
+        width: 72%;
+        
+        height:1vw;
+    }
+
+
+    .sifh-box{
+
+        width:45%;
+        left: 15%;
+        
     }
 
     .sifh{
+    
         position: absolute;
-        left: 10%;
+        left: 0%;
+    }
+
+    .structure{
+
+        width: 100%;
+        margin: 0;
+        justify-content: flex-start;
     }
 
     .structure-container{
 
         width: 30%;
-        margin: 10% 0;
+        margin: 6% 0;
+
         position: relative;
-        right: 10%;
+        left: 0%;
 
     }
 
     .rey-box{
 
+        width: 20%;
+        
         position: relative;
-        right: 8vw;
+        right:0%;
+
         
     }
 
     .rey{
        
         position: absolute;
-        right: 5%;
+        right:0%;
+
+    }
+
+    .attributes-title{
+
+        padding: 15% 0 5% 0;
+        text-align: center;
+
+        font-size: 3.5vw;
+        
 
     }
 
@@ -1664,6 +1727,8 @@ header{
     .box-up{
 
         width: 100%;
+        padding:0 5% 0 5%;
+
 
         display:flex;
         justify-content: center;
@@ -1674,6 +1739,8 @@ header{
 
     .box-dawn{
 
+        padding:0 5% 5% 5%;
+
         display:flex;
         justify-content: center;
         align-items: center;
@@ -1683,146 +1750,466 @@ header{
 
     .review-box{
 
-        width: 50%;
-        height: 100%;
+        width: 80vw;
+        height: 40vh;
+        padding-bottom:1.7% ;
         position: relative;
+        
+        left: 9%;
     
     }
     
     .review{
+
         width: 100%;
+
     }
 
-    .como-box{
+    .gameplay-container{
 
-        width:90%;
+        width: 80vw;
+        padding:15% 15%;
+        left: 9%;
+    }
+
+    .gameplay-title{
+
+        padding: 1% 0 6% 0;
+        font-size: 5vw;
+
+    }
+
+    .review-text{
+
+        font-size: 2.5vw;
+    }
+
+    .read-review{
+
+        font-size: 2.5vw;
+    }
+
+
+    .storm-container{
+
+        width: 80vw;
+        padding:5% 10%;
+     
+    }
+
+    .new-title{
+
+        padding: 5% 0;
+        font-size: 5vw;
+
+    }
+
+    .new-text{
+
+        font-size: 3vw;
+    }
+
+    .read{
+
+        font-size: 2.5vw;
+    }
+
+    .top-border-storm{
+
+        height:0.6vh;
+    }
+
+    .left-border-storm{
+
+        height:0.6vh;
+        top:12.1%;
+    }
+
+    .right-border-storm{
+
+        height:0.6vh;
+    }
+
+       
+    .bottom-border-storm{
+
+        height:0.6vh;
+        left: 86.6%;
+    }
+
+    .star-title{
+
+        padding:5% 0 10% 0;
+        font-size: 4.5vw;
+
+    }
+
+    .star-text{
+
+        font-size:2.5vw;
+
+    }
+
+    .nave-title{
+
+        padding-bottom: 15%;
+        font-size: 4.5vw;
+
+    }
+
+    .nave-text{
+
+        font-size: 3vw;
+
+    }
+
+    .stormtrup-title{
+
+        padding-bottom: 15%;
+        font-size: 4.5vw;
+    }
+
+    .stormtrup-text{
+
+        font-size: 2.5vw;
+
+    }
+
+    .ranking-box{
+
+        width: 98vw;
+        
+
+        position: relative;
+        right:5.5%;
+    
+    }
+
+    .ranking-text{
+
+        font-size: 1.8vw;
+        padding: 0;
+
+    }
+
+    .attributes-container{
+
+        border-bottom: #202020 solid;
+
+    }
+
+    .how-title{
+
+        width: 30vw;
+        
+        font-size: 3.5vw;
+        position: relative;
+        top:2%;
+        left:49%;
+    }
+
+    .how-box{
+
+        width:80%;
+        height: 95vh;
+
         position: absolute;
         left: 0;
     }
 
-    .como-img{
 
-        width: 100%;
-        height: 100vh;
-        transform: translateX(-38vw);
+    .how-img{
+
+        width: 99%;
+        height: 82%;
+
+        position: relative;
+        right: 33%;
         
     }
 
-    .opcoes-container{
+    .how-container{
 
-        width: 50%;
+        padding:5% 0 8% 6%;
+
+    }
+
+    .options{
+
+        width: 65%;
         padding: 0%;
+        margin: 5% 0 ;
 
         display:flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         
-        background-color: turquoise;
     }
 
-    .opcoes-number{
+    .options-number{
 
         width: 100%;
         height: 100%;
-        font-size: 6vw;
+        font-size: 5vw;
         font-weight: 900;
-        text-align:center;
-    
-    }
-
-    .opcoes-btn{
-
-        width: 20vw;
-        height: 100%;
-        font-size: 3vw;
+        
+        position: relative;
+        left: 23vw;
 
     }
 
-    .opcoes-p{
+    .options-btn{
 
-        width: 100%;
+        width: 30vw;
         height: 100%;
-        padding: 0%;
+        padding: 10% 25%;
+
+        margin:0%;
         font-size: 3vw;
+
+        position: relative;
+        left: 95%;
+
+    }
+
+    .options-text{
+
+        width: 50vw;
+        height: 100%;
+        padding: 8% 0% 8% 85%;
+        font-size: 2.5vw;
         
     }
 
-    .aplicativo{
+    .options-rod{
 
-        display: flex;
+        width: 80%;
+        height: 1vh;
+
+        margin-left: 25vw;
+    }
+
+    .app{
+        
         flex-direction: column;
     }
 
-    .aplicativo-p{
-
+    .app-text{
+        
+        width: 100%;
         margin-bottom: 5% ;
 
     }
 
+    .app-link{
+
+        margin: 0;
+        padding:0;
+    }
+
+    .app-box{
+
+        padding: 0;
+        margin: 0;
+    }
+
+    .google-play{
+
+        height:10vh;
+        margin:1% 0;
+    }
+
+    .play-store{
+
+        height:10vh;
+        margin:1% 0;
+    }
     
-    .aplicativo-container{
+    .app-container{
 
         width:100%;
-        height: 100vw;
+        height: 100%;
         font-size: 3vw;
         
     }
 
-    .aplicativo-content{
+    .app-box-text{
 
-        display: flex;
-        flex-direction: column;
+        width: 89%;
     }
 
-    .aplicativo-title{
+    .app-title{
+
         width: 100%;
-        font-size:6.5vw;
+        font-size:12.5vw;
+
+    }
+
+    .app-text{
+
+        font-size: 4vw;
+    }
+
+    .app-box{
+
+        width: 85%;
+        height: 12vh;
+    }
+
+    .google-play{
+
+        width: 90%;
+        height: 9vh;
+
+    }
+
+    .play-store{
+
+        width: 90%;
+        height: 9vh;
+    }
+
+    .app-logo{
+
+        width:60%;
+        height: 25vh;
+
+        margin-left: 12%;
+    }
+
+    .apps-text{
+
+        width: 85%;
+        font-size: 4vw;
+        padding-bottom: 50%;
+
+    }
+
+    .darth-box{
+
+        width: 100%;
+        height: 50vh;
+        position: relative;
+        bottom: 10%;
+        
     }
 
     .darth{
 
-        width: 100%;
-        height:90vh;
-        width: 70%;
+        width: 80%;
+        height: 75vh;
+
         position: relative;
-        bottom: 1%;
-        left: 5%;
-        /* background-color: darkcyan; */
+        bottom:55%;
+        left: 10%;
         
     }
 
-    .darth-img{
-
-        width: 100%;
-        position:absolute;
-        bottom: 3%;
-        width: 100%;
-        
-    }
 }
-
 
 @media (max-width:325px){
 
-    h2{
-        padding-top:35% ;
+    .start-container{
+
+        top:7vh;
+        background-size: 100% ;
     }
 
-    .fale-p{
+    .test{
 
-        position: absolute;
-        bottom: 4%;
+        margin-top: 2vh;
     }
 
-    .menu-nav{
+    .play{
 
-        width: 30%;
-        height: 5.5vh;
+        background-size:70% 58vh;
     }
 
-    .rede-p::before{
+    .review-box{
 
-        height: 3vh;
+        height: 0%;
+        padding-bottom: 0.1vh;
     }
+
+    .how-box{
+
+        width: 90%;
+        height: 85vh;
+    }
+
+    .options{
+
+        width: 65%;
+       
+    }
+
+    .options-number{
+        
+        font-size: 9vw;
+        left: 26vw;
+    }
+
+    .options-btn{
+
+        width: 50vw;
+        height: 6vh;
+        font-size: 5vw;
+        left: 50%;
+
+    }
+
+    .options-text{
+
+        width: 55vw;
+        height: 100%;
+        padding-left: 75%;
+        font-size: 4.5vw;
+        
+    }
+
+    .options-rod{
+
+        width: 85%;
+        height: 0.5vh;
+
+        margin-left: 27vw;
+    }
+
+
+    .app-box{
+
+        height: 8vh;
+        
+        padding-left: 2%;
+    }
+
+    .google-play{
+
+        height: 5vh;
+
+    }
+
+    .play-store{
+
+        height: 5vh;
+    }
+
+    .app-logo{
+
+        height: 18vh;
+
+    }
+
+    .darth-box{
+
+        height: 30vh;
+    }
+
+    .darth{
+
+        height: 50vh;
+        bottom: 63%;
+
+    }
+
+
 }
