@@ -1534,7 +1534,7 @@ header{
         width: 100vw;
         height: 100%;
         
-        background-size: 70% 90vh;
+        background-size: 70% 55%;
         
     }
 
@@ -1547,7 +1547,7 @@ header{
         left:33%;
         bottom: 0%;
 
-        background-size:100% 80vh ;
+        background-size:100% 100% ;
        
     }
 
@@ -1751,8 +1751,8 @@ header{
     .review-box{
 
         width: 80vw;
-        height: 40vh;
-        padding-bottom:1.7% ;
+
+        padding-bottom:1% ;
         position: relative;
         
         left: 9%;
@@ -1910,10 +1910,11 @@ header{
 
     .how-box{
 
-        width:80%;
-        height: 95vh;
+        width:90%;
+        height: 100%;
 
         position: absolute;
+        top: 2%;
         left: 0;
     }
 
@@ -1921,7 +1922,7 @@ header{
     .how-img{
 
         width: 99%;
-        height: 82%;
+        height: 100%;
 
         position: relative;
         right: 35%;
@@ -2052,20 +2053,20 @@ header{
     .app-box{
 
         width: 85%;
-        height: 12vh;
+        padding:0 0 3%  3%;
     }
 
     .google-play{
 
         width: 90%;
-        height: 9vh;
+        height: 50%;
 
     }
 
     .play-store{
 
         width: 90%;
-        height: 9vh;
+        height: 50%;
     }
 
     .app-logo{
@@ -2087,19 +2088,17 @@ header{
     .darth-box{
 
         width: 100%;
-        height: 50vh;
+        height: 50%;
         position: relative;
-        bottom: 10%;
         
     }
 
     .darth{
 
-        width: 80%;
-        height: 75vh;
+        width: 70%;
 
         position: relative;
-        bottom:55%;
+        bottom:20vh;
         left: 10%;
         
     }
@@ -2119,21 +2118,11 @@ header{
         margin-top: 2vh;
     }
 
-    .play{
-
-        background-size:70% 58vh;
-    }
-
-    .review-box{
-
-        height: 0%;
-        padding-bottom: 0.1vh;
-    }
 
     .how-box{
 
         width: 95%;
-        height: 85vh;
+
     }
 
     .how-img{
@@ -2205,15 +2194,10 @@ header{
 
     }
 
-    .darth-box{
-
-        height: 30vh;
-    }
-
     .darth{
 
-        height: 50vh;
-        bottom: 63%;
+        height: 50%;
+        bottom: 18vh;
 
     }
 
